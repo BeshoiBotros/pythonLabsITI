@@ -45,7 +45,7 @@ def task2():
 #         * The average
 #     If the user enters something invalid, show an error and continue.
 
-def task_3():
+def task3():
     numbers = []
     print('Enter numbers one by one. Type "done" to finish.')
     while True:
@@ -85,7 +85,7 @@ def task4():
 #     Count how many times each word appears in the sentence
 #     and display the result.
 
-def task_6():
+def task6():
     sentence = input("Enter a sentence: ")
     words = sentence.lower().split()
     counts = {}
@@ -144,7 +144,7 @@ class CartItem:
         return hash(self.name.lower())
     
 class ShoppingCart:
-    
+
     def __init__(self, username):
         self.username = username
         self.shopping_cart: set[CartItem] = set()
@@ -253,3 +253,36 @@ def task9():
             break
         
         
+if __name__ == '__main__':
+    tasks = {
+        "1": task1,
+        "2": task2,
+        "3": task3,
+        "4": task4,
+        "6": task6,
+        "7": task7,
+        "8": task8,
+        "9": task9,
+    }
+
+    while True:
+        print("\n=== Python Practice Menu ===")
+        print("1: task 1")
+        print("2: task 2")
+        print("3: task 3")
+        print("4: task 4")
+        print("6: task 6")
+        print("7: task 7")
+        print("8: task 8")
+        print("9: task 9")
+        print("0: Exit")
+
+        choice = input("Choose a task -> ")
+
+        if choice == "0":
+            print("Exiting program. Goodbye!")
+            break
+        elif choice in tasks:
+            tasks[choice]()
+        else:
+            print("Invalid choice. Please enter a valid number from the menu.")

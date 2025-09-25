@@ -235,6 +235,7 @@ def task8():
 #     - The user keeps guessing until they get it right.
 #     - After each guess, show if the guess was too high or too low.
 #     - When correct, display the number of attempts.
+
 def task9():
     number = random.randint(1, 20)
     attempts = 0

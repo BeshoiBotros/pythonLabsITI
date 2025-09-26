@@ -1,0 +1,5 @@
+admin@domain.org
+test123@mail.com
+support@helpdesk.net
+contact@company.com
+user@example.com

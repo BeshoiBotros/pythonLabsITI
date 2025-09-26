@@ -1,0 +1,30 @@
+Number: 5.0
+ Floor: 5
+ Ceil: 5
+ Square root: 2.24
+ Area of circle: 78.54
+
+Number: 9.0
+ Floor: 9
+ Ceil: 9
+ Square root: 3.00
+ Area of circle: 254.47
+
+Number: 2.0
+ Floor: 2
+ Ceil: 2
+ Square root: 1.41
+ Area of circle: 12.57
+
+Number: 4.0
+ Floor: 4
+ Ceil: 4
+ Square root: 2.00
+ Area of circle: 50.27
+
+Number: 5.0
+ Floor: 5
+ Ceil: 5
+ Square root: 2.24
+ Area of circle: 78.54
+
